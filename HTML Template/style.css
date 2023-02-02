@@ -1,0 +1,349 @@
+/* *****************
+    CONTENTS
+********************
+1. BASIC (LINE 18)
+2.COMMONLY USED (LINE 42)
+3.HEADER (LINE 82)
+4. SECTION SERVICES (133)
+5. SECTION COMPANIES (170)
+6. SECTION INCLUDEDD (LINE 182)
+7. SECTION ABOUT (LINE 210)
+8. SECTION SOLUTIONS (LINE 241)
+9. CONTACT CARD DIV (LINE 256)
+10. CONTACT DIV (LINE 289)
+11. FOOTER (LINE 341)
+*************************** */
+
+/* **********************
+1. BASIC
+********************** */
+:root {
+    --main-color-blue: #5494e7;
+    --h-color: #add8ff;
+    --p-color: #a2d3fd;
+    --bg-orange: #f89645;
+    --bg-light-blue: #ecf3fe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+
+/* **********************
+2. COMMONLY USED
+********************** */
+
+h1 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold; 
+    color: var(--main-color-blue);
+}
+
+h2,
+h3 { color: var(--h-color); }
+
+h4 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 130%;
+}
+
+h6 {
+    color: var(--main-color-blue);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    color: var(--p-color);
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 85%;
+}
+
+.button {
+    font-size: 12px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* **********************
+3. HEADER
+********************** */
+
+.logo { width: 10%; }
+
+.home {
+    background-color: var(--main-color-blue);
+    height: auto;
+}
+
+.hero-container { position: relative; }
+
+.home img {
+    width: 60%;
+    height: 350px;
+    margin-top: 100px;
+}
+
+.hero-sub-container {
+    background-color: white;
+    width: 40%;
+    position: absolute;
+    top: 65%;
+    right: 100px;
+}
+
+.hero-sub-container h1 {
+    font-family: "Saira Condensed";
+    letter-spacing: 4px;
+}
+
+.hero-sub-container p {
+    color: #000;
+    margin-top: 10px;
+}
+
+.btn-contact {
+    background-color: var(--main-color-blue) !important; 
+    color: white !important;
+}
+
+.home-content { margin-top: 300px; }
+
+.home-content .home-content-first-div { width: 50%; }
+
+.btn-learn-more {
+    color: var(--main-color-blue) !important;
+    background-color: #fff !important;
+}
+
+/* **********************
+4. SECTION SERVICES
+********************** */
+
+.services { background-color: var(--bg-light-blue); }
+
+.serivces-cards { position: relative; }
+
+.card {
+    border: none !important;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 250px;
+    height: 170px;
+}
+
+.card-title {
+    color: var(--main-color-blue);
+    font-weight: 700;
+}
+
+.card-body .button { background-color: var(--bg-orange); }
+
+.bg-orange {
+    width: 200px;
+    height: 200px;
+    background-color: var(--bg-orange);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services p { margin-bottom: 0 !important; }
+
+/* **********************
+5. SECTION COMPANIES
+********************** */
+
+.companies { background-color: var(--main-color-blue); }
+
+.companies h1 {
+    color: var(--h-color);
+    text-transform: none;
+    line-height: 60px;
+}
+
+/* **********************
+6. SECTION INCLUDED
+********************** */
+
+.included { background-color: var(--bg-light-blue); }
+
+.included i { color: var(--main-color-blue); }
+
+.included-list {
+    list-style: none;
+    padding: 0;
+    font-size: 80%;
+}
+  
+.included-list li:before {
+    content: '✓';
+    margin-right: 10px;
+}
+
+.included .button {
+      color: var(--main-color-blue);
+      padding: 0 0 1px 0;
+      border-bottom: 1px solid var(--main-color-blue);
+      border-radius: 0;
+      font-weight: 300;
+      letter-spacing: 1px;
+}
+
+/* **********************
+7. SECTION ABOUT
+********************** */
+
+.section-about { background-color: var(--main-color-blue); }
+
+.section-about h1 { color: var(--h-color); }
+
+.section-about .about-card {
+      border: 10px solid #fcd4b2;
+      border-radius: 25px;
+      padding: 20px;
+      background-color: #fff;
+      width: 22%;
+}
+
+.section-about .about-card:nth-child(even) { border: 10px solid var(--bg-orange); }
+
+.section-about .about-card h6 { color: #e5a570; }
+
+.section-about .about-card p { font-size: 80%; }
+
+.section-about .button {
+    color: #000;
+    padding: 0 0 1px 0;
+    border-bottom: 1px solid #fcd4b2;
+    border-radius: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* **********************
+8. SECTION SOLUTIONS
+********************** */
+
+.solution-and-contact { position: relative; }
+
+.solution-img-container img {
+    width: 50%;
+    height: 50%;
+}
+
+.solution-div-content { width: 50%; }
+
+.solution-div .button { background-color: var(--bg-orange); }
+
+/* **********************
+9. CONTACT CARDS DIV
+********************** */
+
+.contact-cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-card-body {
+    background-color: var(--bg-light-blue);
+    border-radius: 10px;
+    width: 20% !important;
+    padding: 10px;
+}
+
+.contact-card-body i { color: var(--main-color-blue); }
+
+.contact-card-body h6 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+
+.contact-card-body p { font-size: 80%; }
+
+.contact-card-body a { font-size: 80%; }
+
+/* **********************
+10. CONTACT DIV
+********************** */
+
+.contact-div {
+    background-color: var(--main-color-blue);
+    padding: 200px 0;
+}
+
+.contact-div h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact-div .social-links a {
+    color: #fff;
+    font-size: 200%;
+    margin-right: 20px;
+}
+
+.contact-div .social-links a:last-child { margin-right: 0; }
+
+.contact-div label {
+    margin-bottom: 10px;
+    font-size: 80%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.contact-div input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+}
+
+.contact-div input[type=text] { height: 100px; }
+
+.contact-div input::placeholder {
+    color: var(--p-color);
+    font-size: 80%;
+}
+
+.contact-div .btn-submit {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0;
+    color: var(--main-color-blue);
+    font-size: 80%;
+    font-weight: 800;
+}
+
+/* **********************
+11. FOOTER
+********************** */
+
+footer { height: 150px; }
+
+footer p {
+    margin: 0;
+    color: #fff;
+}

@@ -1,0 +1,203 @@
+@media only screen and (max-width: 992px) {
+    .home img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .hero-sub-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 60%;
+        top: 60%;
+        left: 55%;
+        transform: translate(-60%, -55%);
+        border-top: 5px solid var(--bg-orange);
+    }
+
+    .home-content { margin-top: 100px; }
+
+    .card { width: 95% !important; }
+
+    .card img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .companies h1 { line-height: 50px; }
+
+    .companies h4 { font-size: 100%; }
+
+    .section-about .about-card {
+        border: 7px solid #fcd4b2;
+        padding: 15px;
+        width: 23%;
+    }
+
+    .section-about .about-card:nth-child(even) { border: 7px solid var(--bg-orange); }
+
+    .contact-cards {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+
+    .contact-card-body { width: 23% !important; }
+
+    .contact-card-body p { margin-bottom: 0; }
+}
+
+@media only screen and (max-width: 767px) {
+    .home img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-sub-container {
+        width: 100%;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+    }
+
+    .home-content { margin-top: 70px; }
+
+    .home-content .home-content-first-div { width: 100%; }
+
+    .card {
+        width: 70% !important;
+        margin:  0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .card img {
+        width: 220px;
+        height: 150px;
+    }
+
+    .companies h1 { width: 100% !important; }
+
+    .included-card {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .section-about .about-card {
+        border: 7px solid #fcd4b2;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .section-about .about-card:last-child { margin-bottom: 0; }
+
+    .solution-div { position: relative; }
+
+    .solution-div .solution-img-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .solution-div .solution-img-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .solution-div-content {
+        width: 100%;
+        background-color: #ffffffb9;
+    }
+    
+    .contact-cards {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
+
+    .contact-card-body { width: 23% !important; }
+
+    .contact-card-body p { line-height: 18px; }
+
+    .contact-div { padding-bottom: 100px; }
+
+    .social-links { margin-bottom: 50px; }
+
+    .contact-card-body h6 { font-size: 90%; }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .hero-sub-container {
+        width: 80%;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+
+    .contact-cards {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .contact-card-body { width: 24% !important; }
+
+    .contact-card-body h6,
+    .contact-card-body p { font-size: 75%; }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .home img { display: none; }
+
+    .hero-sub-container {
+        width: 100%;
+        margin-top: 80%;
+    }
+
+    .home-content-first-div { display: none; }
+
+    #counter { padding-top: 450px; }
+
+    .hero-sub-container p { line-height: 20px; }
+
+    .button {
+        font-size: 10px !important;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-sub-container { margin-top: 90%; }
+
+    #counter { padding-top: 400px; }
+
+    .contact-cards { display: none !important; }
+
+    .contact-div { padding-top: 50px; }
+
+    .solution-div-content p:last-of-type { margin-bottom: 100px !important; }
+}
+
+@media only screen and (max-width: 340px) {
+    .hero-sub-container { margin-top: 110%; }
+}
+
+@media only screen and (max-width: 305px) {
+    .hero-sub-container { margin-top: 120%; }
+
+    .social-links i { font-size: 80%; }
+}
+
+@media only screen and (max-width: 280px) {
+    .hero-sub-container { margin-top: 130%; }
+}
